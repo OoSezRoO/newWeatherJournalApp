@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: url('img/background.jpg') no-repeat center center fixed;
+    /*This background Image was taken by me*/
+    background-size: cover;
+    color: rgba(0,0,0,0.5);
+}
+body{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height:100vh;
+    /*background: #f23557;*/
+    color: #f0d43a;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+img {
+        width: 319px;
+        align-items: center;
+        float: left;
+        height: 265px;
+}
+
+#entryHolder{
+    float: right;
+    margin-right: 4%;
+    margin-top: -65px;
+    font-weight: bolder;
+}
+
+#date:hover, #temp:hover, #content:hover {
+    font-size: xx-large;
+    color: rgba(255,255,255,0.7);
+}
+
+.headline {
+    margin: 0 auto;
+}
+.title{
+    float: right;
+    font-size: 29px;
+    margin-right: 6%;
+    margin-top: -50px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 35px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    color:rgba(0,0,0,0.5);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    background: rgba(59,107,155,0.3);
+    border-radius: 3%;
+    text-align: center;
+    font-size: 31px;
+}
+
+button{
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    float: right;
+    margin-left: 10px;
+    height: 60px;
+    width: 320px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 3%;
+    color: rgba(0,0,0,0.5);
+}
+button:hover {
+    font-size: xx-large;
+    color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.5);
+}
+
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    color:rgba(0,0,0,0.5);
+    font-family: 'Oswald', sans-serif;
+    background: rgba(59,107,155,0.3);
+    border-radius: 3%;
+    text-align: center;
+    font-size: 31px;
+    border: none;
+    padding-top: 98px;
+    margin-bottom: 7px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color:rgba(0,0,0,0.7);
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
